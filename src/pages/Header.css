@@ -1,0 +1,46 @@
+.header {
+    background-color: #007bff; /* Example blue color */
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-logo img {
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav li {
+    margin-left: 20px;
+  }
+  
+  .header-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .row{
+      width: 100%;
+  }
+  
+  .col-12 {
+      width: 100%;
+  }
